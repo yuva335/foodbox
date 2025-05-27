@@ -1,0 +1,11 @@
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: static;
+    margin-top: auto;
+    width: 100%; /* Make sure the footer is 100% width */
+    box-sizing: border-box; /* Ensure padding doesn't cause overflow */
+  }
+  

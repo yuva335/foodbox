@@ -1,0 +1,50 @@
+.hero{
+    height: 100vh;
+    background: none;
+    display: flex;
+}
+
+.hero-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+
+.hero-left h2{
+    color: #090909;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.donate-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    background: #ff4141;
+    color: white;
+    margin-top: 30px;
+    border-radius: 75px;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Align image to the right */
+    align-items: center;       /* Center it vertically */
+    padding-right: 2rem;       /* Optional: add space from the edge */
+}
+
+.hero-right img {
+    max-width: 80%;   /* Shrinks the image */
+    height: auto;     /* Maintains aspect ratio */
+    object-fit: contain;
+}

@@ -1,0 +1,99 @@
+.page-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+}
+
+.signup {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 75vh;  /* Reduced height */
+    background: white;
+    padding-top: 50px;  /* Reduced padding-top */
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;  /* Reduced padding */
+}
+
+.signup-container {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;  /* Reduced height */
+    background: white;
+    margin: auto;
+    padding: 10px 20px;
+    flex-grow: 1;
+}
+
+.signup-container h1 {
+    margin: 15px 0px;  /* Reduced margin */
+}
+
+.signup-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  /* Reduced gap */
+    margin-top: 20px;  /* Reduced margin */
+}
+
+.signup-fields input {
+    width: 100%;
+    height: 50px;  /* Reduced height */
+    border: 1px solid #c9c9c9;
+    padding-left: 20px;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 16px;  /* Reduced font size */
+}
+
+.signup-container button {
+    width: 100%;
+    height: 50px;  /* Reduced button height */
+    background: #ff4141;
+    border: none;
+    font-size: 18px;  /* Reduced font size */
+    font-weight: 500;
+    margin-top: 20px;  /* Reduced margin */
+    color: white;
+    cursor: pointer;
+}
+
+/* Role Dropdown Styling */
+.role-dropdown {
+    width: 100%;
+    height: 50px;  /* Reduced height */
+    border: 1px solid #c9c9c9;
+    padding-left: 20px;
+    color: #5c5c5c;
+    font-size: 16px;  /* Reduced font size */
+    background-color: white;
+    margin-top: 15px;  /* Reduced margin */
+}
+
+.signup-login {
+    margin-top: 15px;  /* Reduced margin */
+    font-size: 16px;  /* Reduced font size */
+    color: #5c5c5c;
+    font-weight: 500;
+}
+
+.signup-login span {
+    color: #ff4141;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.signup-agree {
+    display: flex;
+    align-items: center;
+    gap: 15px;  /* Reduced gap */
+    margin-top: 20px;  /* Reduced margin */
+    color: #5c5c5c;
+    font-size: 16px;  /* Reduced font size */
+    font-weight: 500;
+}
+
